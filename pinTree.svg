@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="128px" height="291px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 36 83">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str3 {stroke:#597B00;stroke-width:0.0617143}
+    .str2 {stroke:#597B00;stroke-width:0.16198}
+    .str1 {stroke:#996633;stroke-width:0.16198}
+    .str0 {stroke:#CC9933;stroke-width:0.16198}
+    .fil0 {fill:#597B00}
+    .fil1 {fill:#415300}
+    .fil4 {fill:#996633}
+    .fil2 {fill:#002200}
+    .fil3 {fill:#CC9933}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="18,40 27,54 36,69 18,69 0,69 9,54 "/>
+  <polygon class="fil0" points="18,0 25,15 32,29 18,29 4,29 11,15 "/>
+  <polygon class="fil0" points="18,13 26,27 34,42 18,42 2,42 10,27 "/>
+  <polygon class="fil0" points="18,26 26,41 34,55 18,55 2,55 10,41 "/>
+  <path class="fil1" d="M18 40l9 15 9 15c-6,-2 -16,-5 -19,-5l-17 5 9 -15 9 -15z"/>
+  <polygon class="fil1" points="18,0 24,15 31,29 18,23 4,29 11,15 "/>
+  <path class="fil2" d="M18 1c5,10 3,4 -3,7l2 -3 2 -3z"/>
+  <polygon class="fil1" points="18,13 26,27 34,42 19,35 3,42 11,27 "/>
+  <polygon class="fil1" points="18,26 25,41 33,55 18,49 2,55 10,41 "/>
+  <path class="fil3 str0" d="M20 76l-4 0c0,-3 -1,-6 0,-8 1,-2 3,0 4,0l0 8z"/>
+  <path class="fil4 str1" d="M16 73c0,5 3,-2 4,3 -1,0 -3,0 -4,0 0,-3 0,-7 0,-3z"/>
+  <polygon class="fil0 str2" points="20,78 19,69 21,74 24,67 24,74 29,69 27,75 33,73 30,76 35,75 29,81 32,81 29,82 "/>
+  <polygon class="fil0 str2" points="15,81 18,74 14,77 14,70 12,77 9,70 9,77 4,73 6,77 1,74 5,81 2,80 5,82 "/>
+  <polygon class="fil1 str3" points="20,80 16,72 20,76 20,68 22,75 26,68 26,75 30,71 29,75 33,72 29,79 32,78 30,80 "/>
+  <polygon class="fil1 str3" points="16,81 20,74 16,77 16,70 14,77 10,70 10,77 6,73 7,77 2,74 7,81 4,80 6,82 "/>
+  <polygon class="fil0 str3" points="27,83 35,76 27,79 28,72 23,78 17,71 16,78 8,74 11,78 1,74 9,82 4,81 8,83 "/>
+ </g>
+</svg>

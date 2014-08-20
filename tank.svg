@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="323px" height="457px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 71 100"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str2 {stroke:black;stroke-width:0.124515}
+    .str1 {stroke:#1A1A1A;stroke-width:0.124515}
+    .str0 {stroke:#999999;stroke-width:0.124515}
+    .fil2 {fill:lime}
+    .fil1 {fill:#1A1A1A}
+    .fil3 {fill:#4D4D4D}
+    .fil0 {fill:#999999}
+   ]]>
+  </style>
+  <filter id="outerbevel" x0="-50%" y0="-50%" width="200%" height="200%">
+			<feMorphology in="SourceAlpha" operator="dilate" radius="1"/>
+			<feGaussianBlur stdDeviation="1" result="blur"/>
+
+			<feOffset dy="1" dx="1"/>
+			<feComposite in2="SourceAlpha" operator="arithmetic"
+					k2="1" k3="-1" result="hlDiff"/>
+			<feFlood flood-color="white" flood-opacity=".7"/>
+			<feComposite in2="hlDiff" operator="in"/>
+			<feComposite in2="SourceGraphic" operator="over" result="withGlow"/>
+
+			<feOffset in="blur" dy="-1" dx="-1"/>
+			<feComposite in2="SourceAlpha" operator="arithmetic"
+					k2="1" k3="-1" result="shadowDiff"/>
+			<feFlood flood-color="lime" flood-opacity="1"/>
+			<feComposite in2="shadowDiff" operator="in"/>
+			<feComposite in2="withGlow" operator="over"/>
+		</filter>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_875766384"  >
+   <rect class="fil0 str0" x="1" y="8" width="70" height="66"/>
+   <path class="fil1 str1"  filter="url(#outerbevel)" d="M71 87c0,3 -3,6 -10,9 -7,3 -16,4 -25,4 -9,0 -18,-1 -25,-4 -7,-3 -10,-6 -10,-9l0 -25c0,3 3,5 10,7 7,3 16,4 25,4 9,0 18,-1 25,-4 7,-2 10,-5 10,-7l0 25z"/>
+   <path class="fil1 str1" d="M71 60c0,3 -3,5 -10,8 -8,3 -16,4 -25,4 -9,0 -18,-1 -25,-4 -7,-3 -10,-5 -10,-8l0 -24c0,2 3,5 10,7 7,2 16,3 25,3 9,0 18,-1 25,-3 7,-2 10,-4 10,-7l0 24z"/>
+   <path class="fil1 str1" d="M71 34c0,2 -3,5 -10,7 -7,2 -16,3 -25,3 -9,0 -18,-1 -25,-3 -7,-2 -10,-4 -10,-7l0 -23c0,2 3,4 10,6 7,2 15,2 25,2 10,0 18,-1 25,-2 7,-2 10,-4 10,-6l0 23z"/>
+   <path class="fil2" d="M71 48c0,0 0,0 0,0l0 -19c0,2 -3,4 -10,6 -7,2 -15,2 -25,2 -10,0 -18,-1 -25,-2 -6,-2 -10,-3 -10,-5l0 -6c0,2 3,4 10,6 7,2 15,2 25,2 10,0 18,-1 25,-2 7,-2 10,-4 10,-6l0 23z"/>
+   <path class="fil2" d="M71 36c0,0 0,0 0,0l0 -19c0,2 -3,4 -10,6 -7,2 -15,2 -25,2 -10,0 -18,-1 -25,-2 -6,-2 -10,-3 -10,-5l0 -6c0,2 3,4 10,6 7,2 15,2 25,2 10,0 18,-1 25,-2 7,-2 10,-4 10,-6l0 23z"/>
+   <path class="fil1 str1" d="M71 8c0,2 -3,4 -10,6 -7,2 -15,2 -25,2 -10,0 -18,-1 -25,-2 -7,-2 -10,-4 -10,-6 0,-2 3,-4 10,-6 7,-2 15,-2 25,-2 10,0 18,1 25,2 7,2 10,4 10,6z"/>
+   <path class="fil3 str2" d="M66 8c0,-2 -4,-3 -11,-3 -7,0 -11,1 -11,3 0,2 4,3 11,3 7,0 11,-1 11,-3z" />
+  </g>
+ </g>
+</svg>

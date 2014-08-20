@@ -1,0 +1,331 @@
+<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink" >
+
+
+<defs>
+
+<style>
+
+
+	.g-circles circle {
+	  -webkit-transform-origin: 120px 120px;
+	  -ms-transform-origin: 120px 120px;
+	  transform-origin: 120px 120px;
+	  -webkit-transform: rotate(0);
+	  -ms-transform: rotate(0);
+	  transform: rotate(0);
+	}
+
+	.g-circles circle {
+	  -webkit-animation: rotation 4s infinite alternate;
+	  animation: rotation 4s infinite alternate;
+	}
+
+	.g-circles circle:nth-child(2) {
+	  -webkit-animation-delay: 0.5s;
+	  animation-delay: 0.5s;
+	}
+
+	.g-circles circle:nth-child(3) {
+	  -webkit-animation-delay: 0.75s;
+	  animation-delay: 0.75s;
+	}
+
+	.g-circles circle:nth-child(4) {
+	  -webkit-animation-delay: 1s;
+	  animation-delay: 1s;
+	}
+
+	.g-circles circle:nth-child(5) {
+	  -webkit-animation-delay: 1.25s;
+	  animation-delay: 1.25s;
+	}
+
+	.g-circles circle:nth-child(6) {
+	  -webkit-animation-delay: 1.5s;
+	  animation-delay: 1.5s;
+	}
+
+	.g-circles circle:nth-child(7) {
+	  -webkit-animation-delay: 1.75s;
+	  animation-delay: 1.75s;
+	}
+
+	.g-circles circle:nth-child(8) {
+	  -webkit-animation-delay: 2s;
+	  animation-delay: 2s;
+	}
+
+	.g-circles circle:nth-child(9) {
+	  -webkit-animation-delay: 2.25s;
+	  animation-delay: 2.25s;
+	}
+
+	.g-circles circle:nth-child(10) {
+	  -webkit-animation-delay: 2.5s;
+	  animation-delay: 2.5s;
+	}
+
+	.g-circles circle:nth-child(11) {
+	  -webkit-animation-delay: 2.75s;
+	  animation-delay: 2.75s;
+	}
+
+	.g-circles circle:nth-child(12) {
+	  -webkit-animation-delay: 3s;
+	  animation-delay: 3s;
+	}
+
+	.g-circles circle:nth-child(13) {
+	  -webkit-animation-delay: 3.25s;
+	  animation-delay: 3.25s;
+	}
+
+	.g-circles circle:nth-child(14) {
+	  -webkit-animation-delay: 3.5s;
+	  animation-delay: 3.5s;
+	}
+
+	.g-circles circle:nth-child(15) {
+	  -webkit-animation-delay: 3.75s;
+	  animation-delay: 3.75s;
+	}
+
+	@-webkit-keyframes rotation {
+	  100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	  }
+	}
+
+	@keyframes rotation {
+	  100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	  }
+	}
+
+
+	svg {
+	  display: block;
+	  width: 100%;
+	  height: 300px;
+		}
+
+	.shape {
+	  fill: url(#wood);
+	  stroke-width: 80;
+	  stroke-width: 10%;
+	  stroke: url(#wood);
+	  stroke-opacity: .5;
+	  fill-opacity: .5;
+	  stroke-dasharray: 5;
+	   stroke-linecap:round;
+	}
+	.shape2 {
+	  fill: lime;
+	  stroke-width: 80;
+	  stroke-width: 10%;
+	  stroke: blue;
+	  stroke-opacity: .5;
+	  fill-opacity: .2;
+	  stroke-dasharray: 5;
+	   stroke-linecap:round;
+	}
+
+	.shape3 {
+	  fill: red;
+	 
+	  stroke-width: 60;
+	  stroke: url(#wood);
+	  stroke-opacity: 1;
+	  fill-opacity: .5;
+	  stroke-dasharray: 1;
+	   stroke-linecap:butt;
+	}
+	.shape4 {
+	  fill: lime;
+	   stroke-linecap:round;
+	  stroke-dasharray: 60;
+	  fill-opacity: .5;
+	  stroke-width: 10;
+	  stroke: black;
+	  stroke-dashoffset:0;
+	  stroke-opacity: .5;
+	   stroke-linejoin:round;
+	    fill: url(#wood);
+	}
+
+
+	.shape5 {
+	  fill: lime;
+	  stroke-dasharray: 100%;
+	   stroke-linecap:round;
+	  fill-opacity: .5;
+	  stroke-width:10;
+	  stroke: url(#wood);
+	  stroke-dashoffset:0;
+	  stroke-opacity: .5;
+	   stroke-linejoin:round;
+	}
+
+
+</style>
+	<filter id="shadow" filterUnits="userSpaceOnUse" x="0" y="0"
+              width="300" height="300">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"/>
+        <feOffset in="blur" dx="10" dy="10" result="offsetBlr" />
+        <feFlood flood-color="rgba(0,0,0,.9)"/>
+        <feComposite operator="in" in2="offsetBlr" result="colBlur"/>
+        <feMerge>
+          <feMergeNode in="colBlur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+
+
+	<pattern id="wood" width="400" height="400"
+			 patternUnits="userSpaceOnUse">
+	  <!-- Внутрь вставляется картинка для фона -->
+	  <image xlink:href="Crackles.jpg"
+			 width="400" height="400">
+		<!--animateTransform
+            attributeName="transform"
+            begin="0s"
+            dur="2s"
+            type="rotate"
+            values = "10;50;10"
+            repeatCount="indefinite" 
+        /-->
+		
+		</image>
+			 
+	</pattern>
+</defs>
+	  
+	<circle r="30" 
+		cx="120" cy="150"
+	class="shape">
+	<animate id="_1" attributeType="XML" attributeName = "stroke-width" repeatCount="indefinite" begin = "0" dur = "10s"  values = "10;50;10"/>
+	<animate id="_1" attributeType="XML" attributeName = "r" repeatCount="indefinite" begin = "0" dur = "10s"  values = "100;20;100"/>
+	<animate id="_1" attributeType="XML" attributeName = "stroke-dasharray" repeatCount="indefinite" begin = "0" dur = "10s"  values = "110 0 10;20 0 0;110 0 10"/>
+	<animate id="_1" attributeType="XML" attributeName = "stroke-dashoffset" repeatCount="indefinite" begin = "0" dur = "10s"  values = "100%;-100%;100%"/>
+	</circle>
+	<circle r="30" 
+		cx="120" cy="150"
+	class="shape2">
+	<animate id="_1" attributeType="XML" attributeName = "stroke-width" repeatCount="indefinite" begin = "0s" dur = "10s"  values = "50;10;50"/>
+	<animate id="_1" attributeType="XML" attributeName = "r" repeatCount="indefinite" begin = "0s" dur = "10s"  values = "20;100;20"/>
+	<animate id="_1" attributeType="XML" attributeName = "stroke-dasharray" repeatCount="indefinite" begin = "0s" dur = "10s"  values = "20 0 0;110 0 10;20 0 0"/>
+	<animate id="_1" attributeType="XML" attributeName = "stroke-dashoffset" repeatCount="indefinite" begin = "0s" dur = "10s"  values = "-100%;100%;-100%"/>
+	</circle>
+  
+  <rect width="60" height="60" 
+        x="330" y="120"
+        class="shape3">
+		<animate id="_1" attributeType="XML" attributeName = "stroke-width" repeatCount="indefinite" begin = "w.mouseover" end = "w.mouseout" dur = "1s"  values = "20;60;20"/>
+	<animate id="_1" attributeType="XML" attributeName = "width_" repeatCount="indefinite" begin = "0s" dur = "10s"  values = "60;100;60"/>
+	<animate id="_1" attributeType="XML" attributeName = "height_" repeatCount="indefinite" begin = "0s" dur = "10s"  values = "60;100;60"/>
+	<animate id="_1" attributeType="XML" attributeName = "stroke-dasharray" repeatCount="indefinite" begin = "0s" dur = "1s"  values = "-20;-110;-20"/>
+	<animate id="_1" attributeType="XML" attributeName = "stroke-dashoffset" repeatCount="indefinite" begin = "0s" dur = "10s"  values = "-100%;-100%;-100%"/>
+	</rect>
+	
+	 <rect id="w" width="60" height="60" 
+        x="330" y="120" _rx="10" _ry="10"
+        class="shape4">
+		<animate id="_1" attributeType="XML" attributeName = "stroke-dashoffset" repeatCount="indefinite" begin = "w.mouseover" end = "w.mouseout" dur = "1s"  values = "60;0;-60"/>
+	
+		<!--<animate id="_1" attributeType="XML" attributeName = "stroke-width" repeatCount="indefinite" begin = "0s" dur = "1s"  values = "20;0;20"/>
+		<animate id="_1" attributeType="XML" attributeName = "x" repeatCount="indefinite" begin = "0s" dur = "1s"  values = "330;310;330"/>
+		<animate id="_1" attributeType="XML" attributeName = "y" repeatCount="indefinite" begin = "0s" dur = "1s"  values = "120;100;120"/>
+	<animate id="_1" attributeType="XML" attributeName = "width" repeatCount="indefinite" begin = "0s" dur = "1s"  values = "60;100;60"/>
+	<animate id="_1" attributeType="XML" attributeName = "height" repeatCount="indefinite" begin = "0s" dur = "1s"  values = "60;100;60"/>
+	-->
+	</rect>
+	
+	
+	<rect  id="o" width="60" height="60" 
+        x="-130" y="120" rx="30" ry="30"
+        class="shape5">
+		<animate id="_1" attributeType="XML" attributeName = "rx" repeatCount="indefinite"  begin = "o.mouseover" end = "o.mouseout" dur = "2s"  values = "0;60;0"/>
+		<animate id="_1" attributeType="XML" attributeName = "ry" repeatCount="indefinite" begin = "o.mouseover" end = "o.mouseout" dur = "2s"  values = "60;0;60"/>
+	<!--
+		<animate id="_1" attributeType="XML" attributeName = "stroke-width" repeatCount="indefinite" begin = "0s" dur = "1s"  values = "20;0;20"/>
+		<animate id="_1" attributeType="XML" attributeName = "width" repeatCount="indefinite" begin = "0s" dur = "1s"  values = "60;100;60"/>
+	<animate id="_1" attributeType="XML" attributeName = "height" repeatCount="indefinite" begin = "0s" dur = "1s"  values = "60;100;60"/>
+	-->
+	</rect>
+	
+	
+	
+	<g class="g-circles"  fill="none"
+       stroke-width="15"
+	  stroke-linecap="round"
+       stroke-dasharray="1 45%"
+       >
+       <circle r="115" cx="120" cy="120"
+          stroke="crimson"  
+          />
+      <circle r="115" cx="120" cy="120"
+           stroke="orangered" 
+           stroke-dashoffset="8%"
+           />
+      <circle r="115" cx="120" cy="120"
+           stroke="orange" 
+           stroke-dashoffset="16%"
+           />
+      <circle r="115" cx="120" cy="120"
+           stroke="gold" 
+           stroke-dashoffset="24%"
+           />
+      <circle r="115" cx="120" cy="120"
+           stroke="yellowgreen" 
+           stroke-dashoffset="32%"
+           />
+      <circle r="115" cx="120" cy="120"
+           stroke="steelblue" 
+           stroke-dashoffset="40%"
+           />
+      <circle r="115" cx="120" cy="120"
+           stroke="url(#wood)" 
+           stroke-dashoffset="48%"
+           />
+      </g> 
+    
+    <g class="g-circles"  fill="none"
+       stroke-width="120"
+       stroke-dasharray="8% 45%"
+	   opacity=".7"
+	   filter="url(#shadow)"
+       transform="translate(-440 24) scale(.8)">
+       <circle r="60" cx="120" cy="120"
+          stroke="crimson"
+          />
+      <circle r="60" cx="120" cy="120"
+           stroke="orangered" 
+           stroke-dashoffset="8%"
+           />
+      <circle r="60" cx="120" cy="120"
+           stroke="orange" 
+           stroke-dashoffset="16%"
+           />
+      <circle r="60" cx="120" cy="120"
+           stroke="url(#wood)" 
+           stroke-dashoffset="24%"
+           />
+      <circle r="60" cx="120" cy="120"
+           stroke="yellowgreen" 
+           stroke-dashoffset="32%"
+           />
+      <circle r="60" cx="120" cy="120"
+           stroke="steelblue" 
+           stroke-dashoffset="40%"
+           />
+      <circle r="60" cx="120" cy="120"
+           stroke="blueviolet" 
+		   
+           stroke-dashoffset="48%"
+           />
+      </g> 
+    
+	
+</svg>
